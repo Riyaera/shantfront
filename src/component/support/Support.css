@@ -1,0 +1,45 @@
+/* Styles for UnderDevelopment component */
+.under-development-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-wrap {
+    background-color: green;
+    width: 20%;
+    color: white;
+    padding: 1em;
+  }
+  
+  .main-nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .unstyled {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list-hover-slide li {
+    border-top: solid 1px green;
+  }
+  
+  .list-hover-slide li a {
+    color: white;
+    display: block;
+    padding: 1.1em 0;
+    text-decoration: none;
+  }
+  
+  .content-wrap {
+    padding: 2em;
+    text-align: center;
+    flex-grow: 1;
+  }
+  
+  .content-wrap h1 {
+    margin: 0;
+  }
+  
