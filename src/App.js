@@ -18,6 +18,10 @@ function App() {
     <div className="site-container">
     <BrowserRouter>
     <Header/>
+    {/* <div className="he2">
+    <Header2/>
+    </div> */}
+   
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/Service' element={<Service/>} />
@@ -28,11 +32,9 @@ function App() {
 
     <Route path='/supports' element={<Support/>} />
 
+     
 
-
-
-
-    </Routes>
+</Routes>
     </BrowserRouter>
    
     {/* <Slideshow/> */}

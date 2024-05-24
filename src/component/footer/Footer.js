@@ -5,10 +5,15 @@ import { useForm } from 'react-hook-form';
 function Footer() {
   const { register, handleSubmit, formState: { errors } } = useForm();
   const [successMessage, setSuccessMessage] = useState(null);
+  const API_URL = process.env.react_API_URL;
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post('http://localhost:1001/api/contact', data);
+      const response = await axios.post(`${API_URL}/api/contact`, data, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
       setSuccessMessage(response.data.message);
     } catch (error) {
       console.error('Error:', error.response ? error.response.data : error.message);
@@ -70,7 +75,7 @@ function Footer() {
                       <textarea className="form-control" name="message" placeholder="Enter your message" {...register('message', { required: true, maxLength: 1000 })}></textarea>
                       {errors.message && <span>This field is required and should be less than 1000 characters</span>}
                     </div>
-                    <button className="devbtn" id="butsave">Send Us</button>
+                    <button className="devbtn" id="butsave" type="submit">Send Us</button>
                   </form>
                 )}
               </div>
@@ -88,7 +93,7 @@ function Footer() {
                 <li><a href="/" ><i className="fa fa-linkedin" /></a></li>
                 <li><a href="/" ><i className="fa fa-pinterest" /></a></li>
               </ul>
-              <p>Copyright © 2019 <a href="/" >Shanti Automation</a>.  All rights reserved</p>
+              <p>Copyright © 2019 <a href="/" >Shanti Automation</a>. All rights reserved</p>
             </div>
           </div>
         </div>

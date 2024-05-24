@@ -4,10 +4,12 @@ import './Header.css';
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState('');
-
+  
   const handleOnClick = (link) => {
     setActiveLink(link);
   };
+
+
 
   return (
     <>
@@ -68,7 +70,7 @@ const Header = () => {
                     </a>
                   </li>
                   <li>
-                    <button type="button" id="navbar-toggle" className="navbar-toggle" data-toggle="collapse">
+                    <button type="button" id="navbar-toggle" className="navbar-toggle"   data-toggle="collapse">
                       <span className="icon-bar" />
                       <span className="icon-bar" />
                       <span className="icon-bar" />
@@ -77,6 +79,7 @@ const Header = () => {
                   </li>
                 </ul>
               </div>
+              
               {/* End Search & Hamburger Menu */}
               {/* Navigation */}
               <div className="navbar-collapse collapse navbar-right">
@@ -158,8 +161,14 @@ const Header = () => {
           </div>
         </div>
         {/* End Menu Bar Navigation */}
+        {/* <div id="sidr-main" class="sidr right"  style={{transition: "right 0.2s ease 0s",right: "0px"}}>
+          <div class="sidr-inner">
+<h1>h</h1>
+          </div>
+          </div> */}
       </header>
       {/* End Header */}
+      
     </div>
     </>
   );
