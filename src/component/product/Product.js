@@ -87,7 +87,7 @@ function Product() {
                   </div>
                   <div className="content">
                     <h2>{project.title}</h2>
-                    <a href="https://shantireactautomation.netlify.app/" >View Details</a>
+                    <a href="/" >View Details</a>
                   </div>
                 </div>
               ))}
@@ -115,7 +115,7 @@ function Product() {
                                         </div>
                                         <div className="content">
                                             <h2>{project.name}</h2>
-                                            <a href="https://shantireactautomation.netlify.app/" >View Details</a>
+                                            <a href="/" >View Details</a>
                                         </div>
                                     </div>
                                 </li>

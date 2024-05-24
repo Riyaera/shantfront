@@ -8,10 +8,10 @@ function Support() {
       <div className="nav-wrap">
         <nav className="main-nav" role="navigation">
           <ul className="unstyled list-hover-slide">
-            <li><a href="https://shantireactautomation.netlify.app/" >Software Downloads</a></li>
-            <li><a href="https://shantireactautomation.netlify.app/" >Manuals</a></li>
-            <li><a href="https://shantireactautomation.netlify.app/" >Cable Diagram</a></li>
-            <li><a href="https://shantireactautomation.netlify.app/" >Tutorials</a></li>
+            <li><a href="/" >Software Downloads</a></li>
+            <li><a href="/" >Manuals</a></li>
+            <li><a href="/" >Cable Diagram</a></li>
+            <li><a href="/" >Tutorials</a></li>
           </ul>
         </nav>
       </div>

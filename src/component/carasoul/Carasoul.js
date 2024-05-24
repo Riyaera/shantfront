@@ -76,7 +76,7 @@ function Carasoul() {
           <div className="col-md-12">
             <div className="dev-calltoaction" data-animation-name="fadeInDown">
               <p>We are committed of <span>delivering</span> the best services</p>
-              <a className="dev-callbtn" href="https://shantireactautomation.netlify.app/" >Learn More</a>
+              <a className="dev-callbtn" href="/" >Learn More</a>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ function Carasoul() {
                 </div>
                 <div className="content">
                   <h2>PLC & HMI</h2>
-                  <a href="https://shantireactautomation.netlify.app/" >View Details</a>
+                  <a href="/" >View Details</a>
                 </div>
               </div>
               <div className="fitem">
@@ -112,7 +112,7 @@ function Carasoul() {
                 </div>
                 <div className="content">
                   <h2>AC & Servo Drives</h2>
-                  <a href="https://shantireactautomation.netlify.app/" >View Details</a>
+                  <a href="/" >View Details</a>
                 </div>
               </div>
               <div className="fitem">
@@ -121,7 +121,7 @@ function Carasoul() {
                 </div>
                 <div className="content">
                   <h2>SCADA & DCS System</h2>
-                  <a href="https://shantireactautomation.netlify.app/" >View Details</a>
+                  <a href="/" >View Details</a>
                 </div>
               </div>
               <div className="fitem">
@@ -130,7 +130,7 @@ function Carasoul() {
                 </div>
                 <div className="content">
                   <h2>Sensors & Vision Camera</h2>
-                  <a href="https://shantireactautomation.netlify.app/" >View Details</a>
+                  <a href="/" >View Details</a>
                 </div>
               </div>
               <div className="fitem">
@@ -139,7 +139,7 @@ function Carasoul() {
                 </div>
                 <div className="content">
                   <h2>Barcode & RFID System</h2>
-                  <a href="https://shantireactautomation.netlify.app/" >View Details</a>
+                  <a href="/" >View Details</a>
                 </div>
               </div>
             </OwlCarousel>
@@ -160,7 +160,7 @@ function Carasoul() {
               <span className="linner" />
             </h2>
             <p className="block-desc">We shall strive to build a long-term relationship with our customers based on mutual trust &amp; highest standards of behavior. We shall provide services to our customers, which meet or exceed their expectations. Taking into consideration all the little details and checked-tested thoroughly before deploying .Our team have given an edge over the peers making us expert, much valuable and time saver. With this there is no surprise that we are known for the quality and flexibility. </p>
-            <a href="https://shantireactautomation.netlify.app/"  className="devbtn">Read More</a>
+            <a href="/"  className="devbtn">Read More</a>
           </div>
           <div className="col-md-6">
             <img alt="placeholder" src="assets/img/work1.jpg" />
@@ -174,7 +174,7 @@ function Carasoul() {
           <div className="col-md-12">
             <OwlCarousel className="clients-slider owl-carousel" {...options}>
               {clients.map((client, index) => (
-                <a href="https://shantireactautomation.netlify.app/"  key={index} className="client">
+                <a href="/"  key={index} className="client">
                   <img src={client} alt={`client ${index + 1}`} height="60" width="90" />
                 </a>
               ))}
@@ -197,7 +197,7 @@ function Carasoul() {
           <div className="tp-caption tp-resizme dev-large-title" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['0', '0', '0', '0']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1000} style={{zIndex: 5, whiteSpace: 'nowrap'}}>
             Sensors,<span>Instrumentation</span> <br /> <span>and</span> Industrial Control Products.</div>
           {/* LAYER NR. 3 */}
-          <a className="tp-caption tp-resizeme dev-capbtn" href="https://shantireactautomation.netlify.app/"  target="_self" id="dev-fullwidthslider-layer-3" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['100', '100', '100', '100']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} style={{zIndex: 5, whiteSpace: 'nowrap'}}>Read more
+          <a className="tp-caption tp-resizeme dev-capbtn" href="/"  target="_self" id="dev-fullwidthslider-layer-3" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['100', '100', '100', '100']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} style={{zIndex: 5, whiteSpace: 'nowrap'}}>Read more
           </a>
         </li>
         <li data-transition="fade"> 
@@ -209,7 +209,7 @@ function Carasoul() {
           <div className="tp-caption tp-resizme dev-large-title" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['0', '0', '0', '0']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1000} style={{zIndex: 5, whiteSpace: 'nowrap'}}>
             <span>Industry</span> <br /> <span>Digitalization</span> Projects.</div>
           {/* LAYER NR. 3 */}
-          <a className="tp-caption tp-resizeme dev-capbtn" href="https://shantireactautomation.netlify.app/"  target="_self" id="dev-fullwidthslider-layer-3" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['100', '100', '100', '100']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} style={{zIndex: 5, whiteSpace: 'nowrap'}}>Read More 
+          <a className="tp-caption tp-resizeme dev-capbtn" href="/"  target="_self" id="dev-fullwidthslider-layer-3" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['100', '100', '100', '100']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} style={{zIndex: 5, whiteSpace: 'nowrap'}}>Read More 
           </a>
         </li>
         <li data-transition="fade"> 
@@ -221,7 +221,7 @@ function Carasoul() {
           <div className="tp-caption tp-resizme dev-large-title" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['0', '0', '0', '0']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1000} style={{zIndex: 5, whiteSpace: 'nowrap'}}>
             Instrumentation <span>Controlling</span> <br /> <span>&amp; Data Logging</span> System.</div>
           {/* LAYER NR. 3 */}
-          <a className="tp-caption tp-resizeme dev-capbtn" href="https://shantireactautomation.netlify.app/"  target="_self" id="dev-fullwidthslider-layer-3" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['100', '100', '100', '100']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} style={{zIndex: 5, whiteSpace: 'nowrap'}}>Read More 
+          <a className="tp-caption tp-resizeme dev-capbtn" href="/"  target="_self" id="dev-fullwidthslider-layer-3" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['100', '100', '100', '100']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} style={{zIndex: 5, whiteSpace: 'nowrap'}}>Read More 
           </a>
         </li>
         <li data-transition="fade"> 
@@ -233,7 +233,7 @@ function Carasoul() {
           <div className="tp-caption tp-resizme dev-large-title" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['0', '0', '0', '0']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1000} style={{zIndex: 5, whiteSpace: 'nowrap'}}>
             Industrial <span>Instrumentation &amp; </span> <br /> <span>Controlling</span> Services.</div>
           {/* LAYER NR. 3 */}
-          <a className="tp-caption tp-resizeme dev-capbtn" href="https://shantireactautomation.netlify.app/"  target="_self" id="dev-fullwidthslider-layer-3" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['100', '100', '100', '100']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} style={{zIndex: 5, whiteSpace: 'nowrap'}}>Free Consultation 
+          <a className="tp-caption tp-resizeme dev-capbtn" href="/"  target="_self" id="dev-fullwidthslider-layer-3" data-x="['center','center','center','center']" data-hoffset="['0', '0', '0', '0']" data-y="['center','center','center','center']" data-voffset="['100', '100', '100', '100']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:2000;e:Power3.easeOut;" data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start={1500} style={{zIndex: 5, whiteSpace: 'nowrap'}}>Free Consultation 
           </a>
         </li>
       </ul> 

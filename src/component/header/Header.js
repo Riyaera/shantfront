@@ -21,7 +21,7 @@ const Header = () => {
               <div className="col-md-6">
                 <ul className="contact-us">
                   <li>
-                    <a href="http://localhost:3000/" >
+                    <a href="/" >
                       <i className="fa fa-phone" aria-hidden="true" />
                       +91-7466076666
                     </a>
@@ -31,7 +31,7 @@ const Header = () => {
               <div className="col-md-6">
                 <ul className="contact-us contact-us-right">
                   <li>
-                    <a href="http://localhost:3000/" >
+                    <a href="/" >
                       <i className="fa fa-envelope" aria-hidden="true" />
                       info@shantiautomation.com
                     </a>
@@ -63,7 +63,7 @@ const Header = () => {
               <div className="collapsed-icons">
                 <ul>
                   <li>
-                    <a className="search" href="http://localhost:3000/"  id="trigger-overlay">
+                    <a className="search" href="/"  id="trigger-overlay">
                       <i className="fa fa-search" aria-hidden="true" />
                     </a>
                   </li>
@@ -86,7 +86,7 @@ const Header = () => {
                       to="/"
                    
                       onClick={() => handleOnClick('home')}
-                      style={{ color: activeLink === 'home' ? 'green' : 'black' }}
+                      style={{ color: activeLink === 'home' ? '#2ff924' : 'black' }}
                     >
                       Home
                     </Link>
@@ -96,7 +96,7 @@ const Header = () => {
                       to="/Service"
                    
                       onClick={() => handleOnClick('services')}
-                      style={{ color: activeLink === 'services' ? 'green' : 'black' }}
+                      style={{ color: activeLink === 'services' ? '#2ff924' : 'black' }}
                     >
                       Our Services
                     </Link>
@@ -106,7 +106,7 @@ const Header = () => {
                       to="/products"
                    
                       onClick={() => handleOnClick('products')}
-                      style={{ color: activeLink === 'products' ? 'green' : 'black' }}
+                      style={{ color: activeLink === 'products' ? '#2ff924' : 'black' }}
                     >
                       Products
                     </Link>
@@ -116,7 +116,7 @@ const Header = () => {
                       to="/about"
                    
                       onClick={() => handleOnClick('about')}
-                      style={{ color: activeLink === 'about' ? 'green' : 'black' }}
+                      style={{ color: activeLink === 'about' ? '#2ff924' : 'black' }}
                     >
                       About Us
                     </Link>
@@ -126,7 +126,7 @@ const Header = () => {
                       to="/career"
                    
                       onClick={() => handleOnClick('career')}
-                      style={{ color: activeLink === 'career' ? 'green' : 'black' }}
+                      style={{ color: activeLink === 'career' ? '#2ff924' : 'black' }}
                     >
                       Career
                     </Link>
@@ -136,7 +136,7 @@ const Header = () => {
                       to="/contact"
                    
                       onClick={() => handleOnClick('contact')}
-                      style={{ color: activeLink === 'contact' ? 'green' : 'black' }}
+                      style={{ color: activeLink === 'contact' ? '#2ff924' : 'black' }}
                     >
                       Contact
                     </Link>
@@ -146,7 +146,7 @@ const Header = () => {
                       to="/supports"
                    
                       onClick={() => handleOnClick('supports')}
-                      style={{ color: activeLink === 'supports' ? 'green' : 'black' }}
+                      style={{ color: activeLink === 'supports' ? '#2ff924' : 'black' }}
                     >
                       Support &amp; Downloads
                     </Link>
