@@ -83,16 +83,16 @@ function Footer() {
           <div className="row">
             <div className="col-md-12">
               <ul className="footer-social">
-                <li><a href="http://localhost:3000/" ><i className="fa fa-facebook" /></a></li>
-                <li><a href="http://localhost:3000/" ><i className="fa fa-twitter" /></a></li>
-                <li><a href="http://localhost:3000/" ><i className="fa fa-linkedin" /></a></li>
-                <li><a href="http://localhost:3000/" ><i className="fa fa-pinterest" /></a></li>
+                <li><a href="https://shantireactautomation.netlify.app/" ><i className="fa fa-facebook" /></a></li>
+                <li><a href="https://shantireactautomation.netlify.app/" ><i className="fa fa-twitter" /></a></li>
+                <li><a href="https://shantireactautomation.netlify.app/" ><i className="fa fa-linkedin" /></a></li>
+                <li><a href="https://shantireactautomation.netlify.app/" ><i className="fa fa-pinterest" /></a></li>
               </ul>
-              <p>Copyright © 2019 <a href="http://localhost:3000/" >Shanti Automation</a>.  All rights reserved</p>
+              <p>Copyright © 2019 <a href="https://shantireactautomation.netlify.app/" >Shanti Automation</a>.  All rights reserved</p>
             </div>
           </div>
         </div>
-        <a href="http://localhost:3000/" id="gotop" className="gotop" style={{fontSize: "14px"}}>top<i className="fa fa-angle-up" aria-hidden="true" /></a>
+        <a href="https://shantireactautomation.netlify.app/" id="gotop" className="gotop" style={{fontSize: "14px"}}>top<i className="fa fa-angle-up" aria-hidden="true" /></a>
       </div>
     </footer>
   );
