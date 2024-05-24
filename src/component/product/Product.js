@@ -82,11 +82,12 @@ function Product() {
               {featuredProjects.map((project, index) => (
                 <div className="fitem" key={index}>
                   <div className="thumb">
-                    <img src={project.image} alt={`${project.title} image`} />
+                  <img src={project.image} alt={project.title} />
+
                   </div>
                   <div className="content">
                     <h2>{project.title}</h2>
-                    <a href="#">View Details</a>
+                    <a href="http://localhost:3000/" >View Details</a>
                   </div>
                 </div>
               ))}
@@ -114,7 +115,7 @@ function Product() {
                                         </div>
                                         <div className="content">
                                             <h2>{project.name}</h2>
-                                            <a href="">View Details</a>
+                                            <a href="http://localhost:3000/" >View Details</a>
                                         </div>
                                     </div>
                                 </li>

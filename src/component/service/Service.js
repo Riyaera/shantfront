@@ -9,7 +9,7 @@ function Service() {
     <div className="container">
       <div className="dev-breadcrumb">
         <ul className="clearfix">
-          <li><a href="index.php">Home</a></li>
+          <li><a  href="http://localhost:3000/" >Home</a></li>
           <li><a className="none-link" href="./our-services.html">Our Services</a></li>
         </ul>
       </div>

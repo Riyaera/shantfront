@@ -39,8 +39,9 @@ function About() {
       <div className="container">
         <div className="dev-breadcrumb">
           <ul className="clearfix">
-            <li><a href="#">Home</a></li>
-            <li><a className="none-link" href="#">About Us</a></li>
+          <li><a href="http://localhost:3000/" >Home</a></li>
+<li><a className="none-link" href="about.html">About Us</a></li>
+
           </ul>
         </div>
         <div className="page-meta">
@@ -57,7 +58,7 @@ function About() {
         <div className="row">
           <div className="col-md-4">
             <div className="dev-iconbox">
-              <a href="#">
+              <a href="heartbeat.html">
                 <i className="fa fa-heartbeat" aria-hidden="true"></i>
               </a>
               <h2>
@@ -71,7 +72,7 @@ function About() {
           </div>
           <div className="col-md-4">
             <div className="dev-iconbox">
-              <a href="#">
+              <a href="cubes.html">
                 <i className="fa fa-cubes" aria-hidden="true"></i>
               </a>
               <h2>
@@ -85,7 +86,7 @@ function About() {
           </div>
           <div className="col-md-4">
             <div className="dev-iconbox">
-              <a href="#">
+              <a href="area.html">
                 <i className="fa fa-area-chart" aria-hidden="true"></i>
               </a>
               <h2>
@@ -120,7 +121,7 @@ function About() {
             </p>
             <ul className="feature-list">
               <li data-animation-name="fadeInLeft" data-animation-delay="1000" data-animation-duration="1000">
-                <a href="#">
+                <a href="http://localhost:3000/" >
                   <i className="fa fa-globe"></i>
                   <h2>
                     <span>Expanding</span>
@@ -129,7 +130,7 @@ function About() {
                 </a>
               </li>
               <li data-animation-name="fadeInLeft" data-animation-delay="1500" data-animation-duration="1000">
-                <a href="#">
+                <a href="http://localhost:3000/" >
                   <i className="fa fa-certificate"></i>
                   <h2>
                     <span>Global</span>
@@ -159,25 +160,25 @@ function About() {
           <div className="timeline-tree">
             <ul>
               <li className="active" data-animation-name="fadeInLeft">
-                <a href="#">
+                <a href="http://localhost:3000/" >
                   <span className="timeline-circle"></span>
                   <span className="timeline-title">Understanding the Project Requirement</span>
                 </a>
               </li>
               <li data-animation-name="fadeInLeft">
-                <a href="#">
+                <a href="http://localhost:3000/" >
                   <span className="timeline-circle"></span>
                   <span className="timeline-title">Innovative Team</span>
                 </a>
               </li>
               <li data-animation-name="fadeInLeft">
-                <a href="#">
+                <a href="http://localhost:3000/" >
                   <span className="timeline-circle"></span>
                   <span className="timeline-title">Vision & Mission</span>
                 </a>
               </li>
               <li data-animation-name="fadeInLeft">
-                <a href="#">
+                <a href="http://localhost:3000/" >
                   <span className="timeline-circle"></span>
                   <span className="timeline-title">Our Quality Policy</span>
                 </a>
@@ -224,7 +225,7 @@ function About() {
           <div className="col-md-12">
             <OwlCarousel className="clients-slider owl-carousel" {...options}>
               {clients.map((client, index) => (
-                <a href="" key={index} className="client">
+                <a href="http://localhost:3000/"  key={index} className="client">
                   <img src={client} alt={`client ${index + 1}`} height="60" width="90" />
                 </a>
               ))}

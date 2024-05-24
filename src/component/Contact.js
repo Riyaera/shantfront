@@ -11,6 +11,7 @@ function Contact() {
           frameborder="0"
           style={{ border: 0 }}
           allowfullscreen
+          title="Sysnix Technologies Location"
         ></iframe>
       </div>
       {/* Wrapper of page */}

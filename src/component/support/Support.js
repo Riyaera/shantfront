@@ -8,10 +8,10 @@ function Support() {
       <div className="nav-wrap">
         <nav className="main-nav" role="navigation">
           <ul className="unstyled list-hover-slide">
-            <li><a href="#">Software Downloads</a></li>
-            <li><a href="#">Manuals</a></li>
-            <li><a href="#">Cable Diagram</a></li>
-            <li><a href="#">Tutorials</a></li>
+            <li><a href="http://localhost:3000/" >Software Downloads</a></li>
+            <li><a href="http://localhost:3000/" >Manuals</a></li>
+            <li><a href="http://localhost:3000/" >Cable Diagram</a></li>
+            <li><a href="http://localhost:3000/" >Tutorials</a></li>
           </ul>
         </nav>
       </div>

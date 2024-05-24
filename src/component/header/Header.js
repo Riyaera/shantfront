@@ -21,7 +21,7 @@ const Header = () => {
               <div className="col-md-6">
                 <ul className="contact-us">
                   <li>
-                    <a href="#">
+                    <a href="http://localhost:3000/" >
                       <i className="fa fa-phone" aria-hidden="true" />
                       +91-7466076666
                     </a>
@@ -31,7 +31,7 @@ const Header = () => {
               <div className="col-md-6">
                 <ul className="contact-us contact-us-right">
                   <li>
-                    <a href="#">
+                    <a href="http://localhost:3000/" >
                       <i className="fa fa-envelope" aria-hidden="true" />
                       info@shantiautomation.com
                     </a>
@@ -63,7 +63,7 @@ const Header = () => {
               <div className="collapsed-icons">
                 <ul>
                   <li>
-                    <a className="search" href="#" id="trigger-overlay">
+                    <a className="search" href="http://localhost:3000/"  id="trigger-overlay">
                       <i className="fa fa-search" aria-hidden="true" />
                     </a>
                   </li>
