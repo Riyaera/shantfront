@@ -2603,7 +2603,7 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 30px;
-  color: #00a650;
+  color: #ef1923;
   text-align: left;
   text-decoration: none;
   text-transform: uppercase;
@@ -3173,7 +3173,7 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   padding: 15px 40px;
   border: #FFF 1px solid;
   max-width: 20%;
-  background-color: #00a650;
+  background-color: #ef1923;
 }
 .site-container .wrapper .dev-calltoaction > a.dev-callbtn:hover {
   border-color: #00a650;
@@ -4437,7 +4437,7 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   height: 383px;
 }
 .site-container .wrapper section.dark-section {
-  background-color: #ef1923 ;
+  background-color: #bcbcbc ;
 }
 .site-container .wrapper section.light-section {
   background-color: #f9f9f9;
@@ -4659,7 +4659,7 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 30px;
-  background-color: #00a650;
+  background-color: #bcbcbc;
   position: relative;
   -moz-transition: all 450ms !important;
   -o-transition: all 450ms !important;
@@ -4750,8 +4750,8 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   color: #ef1923;
 }
 .site-container .dev-newsletter > form .btn {
-  background-color: #00a650;
-  border-color: #00a650;
+  background-color: #bcbcbc;
+  border-color: #bcbcbc;
   color: #fff;
   height: 40px;
   -moz-border-radius: 0;

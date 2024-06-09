@@ -51,11 +51,11 @@ function Carasoul() {
           <div className="col-md-6">
             <h1 className="section-title">
               <span className="sub-title">Read What We Do</span>
-              About Shanti Automation
+              About Sysnix Automation
               <span className="linner" />
             </h1>
-            <p className="section-desc">Shanti Automation  is a leading Industrial Automation products and solution provider for various industry verticals. Established in 2010, The Company has been promoted by some highly experienced Professionals dedicated to provide total industrial automation solutions under one roof. It possesses not only the latest technologies but also the most knowledgeable and experience hands to offer most user friendly customized solutions.</p>
-            <p>Shanti Automation provides high quality on site services for industrial automation and the end users on a broad range of hardware &amp; software platforms and latest technologies. </p>
+            <p className="section-desc">Sysnix Automation  is a leading Industrial Automation products and solution provider for various industry verticals. Established in 2010, The Company has been promoted by some highly experienced Professionals dedicated to provide total industrial automation solutions under one roof. It possesses not only the latest technologies but also the most knowledgeable and experience hands to offer most user friendly customized solutions.</p>
+            <p>Sysnix Automation provides high quality on site services for industrial automation and the end users on a broad range of hardware &amp; software platforms and latest technologies. </p>
           </div>
           <div className="col-md-6">
             <div data-animation-name="fadeInRight" className="framed-images clearfix">
