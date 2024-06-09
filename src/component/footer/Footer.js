@@ -4,22 +4,32 @@ import { useForm } from 'react-hook-form';
 
 function Footer() {
   const { register, handleSubmit, formState: { errors } } = useForm();
-  const [successMessage, setSuccessMessage] = useState(null);
-  const API_URL = process.env.react_API_URL;
+  const [successMessage, setSuccessMessage] = useState('');
 
-  const onSubmit = async (data) => {
-    try {
-      const response = await axios.post(`${API_URL}/api/contact`, data, {
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
-      setSuccessMessage(response.data.message);
-    } catch (error) {
-      console.error('Error:', error.response ? error.response.data : error.message);
+  const onSubmit = (data) => {
+    if (!data.name) {
+      alert("Left name column blank");
+    } else if (!data.email) {
+      alert("Left email column blank");
+    } else if (!data.number) {
+      alert("Left number column blank");
+    } else if (!data.message) {
+      alert("Left message column blank");
+    } else {
+      console.log("Form submitted successfully!", data);
+      const url = "http://localhost:3213/submit-form";
+
+      axios.post(url, data)
+        .then(res => {
+          alert("Data submitted");
+          setSuccessMessage("Form submitted successfully!");
+        })
+        .catch(error => {
+          console.error("There was an error submitting the form!", error);
+          alert("Error submitting form");
+        });
     }
   };
-
   return (
     <footer>
       <div className="widgets-block padding paddv-60">
@@ -27,7 +37,7 @@ function Footer() {
           <div className="row widgets">
             <div className="col-md-4">
               <div className="widget widget-text">
-                <p>Shanti Automation provides high quality on site services for industrial automation and the end users on a broad range of hardware &amp; software platforms and latest technologies.</p>
+                <p>sysnix Automation provides high quality on site services for industrial automation and the end users on a broad range of hardware &amp; software platforms and latest technologies.</p>
                 <div className="dev-newsletter">
                   <h2>Subscribe our newsletter</h2>
                   <form action="#" method="GET" data-list_id="5cdb4dac1a">
@@ -45,8 +55,8 @@ function Footer() {
               <div className="widget widget-address">
                 <h2>Find us at</h2>
                 <p>MAIN OFFICE: <br />D1-D2, Adarsh Colony, Rudrapur <br />Dist. U.S.Nagar (UK)</p>
-                <p><i className="fa fa-phone" aria-hidden="true" /> +91-7466076666 <br /><i className="fa fa-envelope-o" aria-hidden="true" /> sales@shantiautomation.com</p>
-                <p><i className="fa fa-calendar" aria-hidden="true" /> Monday - Saturday: 9:00 Am - 18:00 Pm <br />Sunday: Closed</p>
+                <p><i className="fa fa-number" aria-hidden="true" /> +91-7466076666 <br /><i className="fa fa-envelope-o" aria-hidden="true" /> sales@sysnixautomation.com</p>
+                <p><i className="fa fa-calendar" aria-hidden="true" /> Monday - Saturday: 9:00 Am - 6:00 Pm <br />Sunday: Closed</p>
               </div>
             </div>
             <div className="col-md-4">
@@ -60,16 +70,16 @@ function Footer() {
                 ) : (
                   <form className="contact-form" id="contact-form" onSubmit={handleSubmit(onSubmit)}>
                     <div className="form-group">
-                      <input type="text" className="form-control" name="name" placeholder="Name" {...register('name', { required: true, maxLength: 255 })} />
-                      {errors.name && <span>This field is required and should be less than 255 characters</span>}
+                      <input type="text" className="form-control" name="name" placeholder="Name"  {...register('name', { required: true, maxLength: 20 })} />
+                      {errors.name && <span>This field is required and should be less than 20 characters</span>}
                     </div>
                     <div className="form-group">
-                      <input type="email" className="form-control" name="email" placeholder="Email" {...register('email', { required: true, pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/ })} />
+                      <input type="email" className="form-control" name="email" placeholder="Email"  {...register('email', { required: true, pattern: /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/ })} />
                       {errors.email && <span>This field is required and should be a valid email</span>}
                     </div>
                     <div className="form-group">
-                      <input type="text" className="form-control" name="phone" placeholder="Mobile Number" {...register('phone', { required: true, pattern: /^\d{10}$/ })} />
-                      {errors.phone && <span>This field is required and should be a 10-digit number</span>}
+                      <input type="text" className="form-control" name="number" placeholder="Mobile Number" {...register('number', { required: true, pattern: /^\d{10}$/ })} />
+                      {errors.number && <span>This field is required and should be a 10-digit number</span>}
                     </div>
                     <div className="form-group">
                       <textarea className="form-control" name="message" placeholder="Enter your message" {...register('message', { required: true, maxLength: 1000 })}></textarea>
@@ -93,7 +103,7 @@ function Footer() {
                 <li><a href="/" ><i className="fa fa-linkedin" /></a></li>
                 <li><a href="/" ><i className="fa fa-pinterest" /></a></li>
               </ul>
-              <p>Copyright © 2019 <a href="/" >Shanti Automation</a>. All rights reserved</p>
+              <p>Copyright © 2019 <a href="/" >Sysnix Automation</a>. All rights reserved</p>
             </div>
           </div>
         </div>

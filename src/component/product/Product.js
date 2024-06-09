@@ -1,7 +1,9 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import OwlCarousel from 'react-owl-carousel';
+import axios from "axios";
+import "./Product.css"
 
 const featuredProjects = [
   { title: "Sensors", image: "assets/img/lsensor.jpg" },
@@ -60,6 +62,34 @@ function Product() {
         { name: "PANEL ACESSORIES", image: "assets/products/panelass.png" },
         { name: "RUGGED ENCLOSER", image: "assets/products/ENCLOSER.png" },
     ];
+
+
+    const [data, setData] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
+  
+    useEffect(() => {
+      const fetchData = async () => {
+        try {
+          const response = await axios.get("http://localhost:3213/getfiles");
+          if (Array.isArray(response.data)) {
+            setData(response.data);
+          } else {
+            setError("Unexpected data format");
+          }
+        } catch (error) {
+          setError("Error fetching data");
+          console.error(error);
+        } finally {
+          setLoading(false);
+        }
+      };
+  
+      fetchData();
+    }, []);
+  
+    if (loading) return <p>Loading...</p>;
+    if (error) return <p>{error}</p>;
   return <div>
 		{/* <!-- Wrapper of page --> */}
 		<div className="wrapper clearfix">
@@ -126,8 +156,35 @@ function Product() {
                 {/* End Project Content */}
             </section>
             {/* End Filtered Projects */}
-		</div>
+            <section className="projects" >
+      <div className="project-content">
+        <div className="container">
+          <ul className="projects-four project-items clearfix getfour">
+            {data.length > 0 ? data.map(item => (
+              <li key={item.id} className="upcoming getup">
+                <div className="project-item get-item">
+                  <div className="thumb getthumb">
+                    {item.image && (
+                      <img src={`http://localhost:3213/images/` + item.image} alt={item.title} />
+                    )}
+                    <div className="hover">
+                      <a className="open-popup" href="/"><i className="dev_project_icon"></i></a>
+                    </div>
+                  </div>
+                  <div className="content getcontent">
+                    <h2>{item.title}</h2>
+                    <a href="/">{item.description}</a>
+                  </div>
+                </div>
+              </li>
+            )) : <p>No projects available</p>}
+          </ul>
+        </div>
+      </div>
+    </section>
 		{/* <!-- End Wrapper of page --> */}
+		</div>
+   
   </div>;
 }
 

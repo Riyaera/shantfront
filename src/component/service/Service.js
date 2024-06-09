@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
+
 function Service() {
   return (
     <div>
@@ -14,8 +15,8 @@ function Service() {
         </ul>
       </div>
       <div className="page-meta">
-        <h2 style={{color: 'red'}}>Our Services</h2>
-        <p style={{color: 'red'}}>With over many years of experience in Industrial Automation Company we've <br /> built well known name in Automation.</p>
+        <h2 style={{color: "rgb(239, 25, 35)"}}>Our Services</h2>
+        <p style={{color: "rgb(239, 25, 35)"}}>With over many years of experience in Industrial Automation Company we've <br /> built well known name in Automation.</p>
       </div>
     </div>
   </div>
@@ -97,7 +98,7 @@ function Service() {
                 <img src="assets/img/lbarcode.jpg" alt="" />
               </div>
               <h2>Barcode &amp; RFID Traceability System</h2>
-              <p>Shanti Automation is the best company in the Rudarpur(U.S NAGAR), that provides the best Barcode &amp; RFID Traceability system. Maily every sectors need this kind of development to reduce or minimize the hurdles in the industry,traceability is the best method to sort out the issues. 
+              <p>Sysnix Automation is the best company in the Rudarpur(U.S NAGAR), that provides the best Barcode &amp; RFID Traceability system. Maily every sectors need this kind of development to reduce or minimize the hurdles in the industry,traceability is the best method to sort out the issues. 
                 we alredy done our projects in many comapnay. Our technoligy is the best, because we laways give our best. </p>
               <Link to="/" className="read-more">Continue Reading</Link>
             </div>
@@ -108,7 +109,7 @@ function Service() {
                 <img src="assets/img/wireless.jpg" alt="" />
               </div>
               <h2>Wireless Communication System</h2>
-              <p>Wireless based industrial automation is a prime concern in our day-to-day life. The approach to  Wireless Network for Industrial Applications standardized nowadays. The system is fully controlled by the Personal Computer through Visual Basics GUI (Graphical User Interface).The GUI is developed based on application by the Shanti Automation.</p>
+              <p>Wireless based industrial automation is a prime concern in our day-to-day life. The approach to  Wireless Network for Industrial Applications standardized nowadays. The system is fully controlled by the Personal Computer through Visual Basics GUI (Graphical User Interface).The GUI is developed based on application by the Sysnix Automation.</p>
               <Link to="/" className="read-more">Continue Reading</Link>
             </div>
           </div>
@@ -118,7 +119,7 @@ function Service() {
                 <img src="assets/img/vision.jpg" alt="" />
               </div>
               <h2>Machine Vision</h2>
-              <p>In this new ERA of technology Shanti Automation provides the better environment of software for machine vision that is too valuable for Industry. Machine vision tools are used for inspection in multiple ways, from part selection and assembly verification to final inspection and tracking. 
+              <p>In this new ERA of technology Sysnix Automation provides the better environment of software for machine vision that is too valuable for Industry. Machine vision tools are used for inspection in multiple ways, from part selection and assembly verification to final inspection and tracking. 
                 Complex applications are often prone to error with the human eye. Machine vision systems significantly eliminate risk of misassembled products. 
                 Machine Vision systems can improve speed and reduce scrap rate while scaling down the amount of labor needed to run equipment this all leads to lower production costs.Machine vision brings additional safety and operational benefits by reducing human involvement in a manufacturing process. Moreover, it prevents human contamination and protects human workers from hazardous environments.</p>
               <Link to="/" className="read-more">Continue Reading</Link>
@@ -142,7 +143,7 @@ function Service() {
                 <img src="assets/img/cnc.jpg" alt="" />
               </div>
               <h2>CNC, VMC &amp; HMC</h2>
-              <p>Shanti Automation provides various type of service like- Troubleshooting, programming, Re-wiring and new panel installation for CNC, VMC panel</p>
+              <p>Sysnix Automation provides various type of service like- Troubleshooting, programming, Re-wiring and new panel installation for CNC, VMC panel</p>
               <Link to="/" className="read-more">Continue Reading</Link>
             </div>
           </div>
@@ -152,7 +153,7 @@ function Service() {
                 <img src="assets/img/control_panel.jpg" alt="" />
               </div>
               <h2>Industrial Control Panels</h2>
-              <p>Shanti Automation also assembled the Industrial Panels as reccommended by the user. we always remind about the quality of the product, that's why we used rugged Plc panel for that. The quality and finishing of the panel too good. we have vareity of size of the Plc panels.</p>
+              <p>Sysnix Automation also assembled the Industrial Panels as reccommended by the user. we always remind about the quality of the product, that's why we used rugged Plc panel for that. The quality and finishing of the panel too good. we have vareity of size of the Plc panels.</p>
               <Link to="/" className="read-more">Continue Reading</Link>
             </div>
           </div>
@@ -164,7 +165,7 @@ function Service() {
                 <img src="assets/img/lt_panels.jpg" alt="" />
               </div>
               <h2>Industrial LT Panels</h2>
-              <p>Its really amazing that Shanti Automation assembled Plc Panels as well as Industrial LT Panles also.Our Panel quality is too high. we always asssembeled the unique product for the customer. Our engineers can work on any application. Thats the postive point for Shanti Automation. </p>
+              <p>Its really amazing that Sysnix Automation assembled Plc Panels as well as Industrial LT Panles also.Our Panel quality is too high. we always asssembeled the unique product for the customer. Our engineers can work on any application. Thats the postive point for Sysnix Automation. </p>
               <Link to="/" className="read-more">Continue Reading</Link>
             </div>
           </div>
@@ -174,7 +175,7 @@ function Service() {
                 <img src="assets/img/spm_machine.jpg" alt="" />
               </div>
               <h2>SPM Machines</h2>
-              <p>SPM, Special Purpose Machines is a high productivity machine, with specially designed tooling and fixture, dedicated for mass producing the same component day in and day out. A judicious combination of limit switches, sensors, logic controls, automatic job clamping etc is the essence of a SPM.Various types of machines are developed by Shanti Automation as reccommended by the users end. </p>
+              <p>SPM, Special Purpose Machines is a high productivity machine, with specially designed tooling and fixture, dedicated for mass producing the same component day in and day out. A judicious combination of limit switches, sensors, logic controls, automatic job clamping etc is the essence of a SPM.Various types of machines are developed by Sysnix Automation as reccommended by the users end. </p>
               <Link to="/" className="read-more">Continue Reading</Link>
             </div>
           </div>
@@ -184,7 +185,7 @@ function Service() {
                 <img src="assets/img/conveyor.jpg" alt="" />
               </div>
               <h2>Conveyors</h2>
-              <p>Its really good news for the users that they can get more and more services at one stop, that is Shanti Automation, the hosue of Industrial services. our team also developed Conveyors as reccommended by the user end. We proide mannual as well as panel based conveyors.</p>
+              <p>Its really good news for the users that they can get more and more services at one stop, that is Sysnix Automation, the hosue of Industrial services. our team also developed Conveyors as reccommended by the user end. We proide mannual as well as panel based conveyors.</p>
               <Link to="/" className="read-more">Continue Reading</Link>
             </div>
           </div>

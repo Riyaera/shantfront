@@ -45,8 +45,8 @@ function About() {
           </ul>
         </div>
         <div className="page-meta">
-          <h2>About Us</h2>
-          <p>With over 5 years of experience in Industrial Automation we've <br /> built well known name.</p>
+          <h2 style={{color: "rgb(137,18,17)"}}>About Us</h2>
+          <p style={{color: "rgb(137,18,17)"}}>With over 5 years of experience in Industrial Automation we've <br /> built well known name.</p>
         </div>
       </div>
     </div>
@@ -110,14 +110,14 @@ function About() {
           <div className="col-md-6">
             <h1 className="section-title">
               <span className="sub-title">Read What We Do</span>
-              About Shanti Automation
+              About Sysnix Automation
               <span className="linner"></span>
             </h1>
             <p className="section-desc">
-              Shanti Automation is a leading Industrial Automation products and solution provider for various industry verticals. Established in 2010, The Company has been promoted by some highly experienced Professionals dedicated to provide total industrial automation solutions under one roof. It possesses not only the latest technologies but also the most knowledgeable and experience hands to offer most user friendly customized solutions.
+              Sysnix Automation is a leading Industrial Automation products and solution provider for various industry verticals. Established in 2010, The Company has been promoted by some highly experienced Professionals dedicated to provide total industrial automation solutions under one roof. It possesses not only the latest technologies but also the most knowledgeable and experience hands to offer most user friendly customized solutions.
             </p>
             <p>
-              Shanti Automation provides high quality on site services for industrial automation and the end users on a broad range of hardware & software platforms and latest technologies.
+              Sysnix Automation provides high quality on site services for industrial automation and the end users on a broad range of hardware & software platforms and latest technologies.
             </p>
             <ul className="feature-list">
               <li data-animation-name="fadeInLeft" data-animation-delay="1000" data-animation-duration="1000">

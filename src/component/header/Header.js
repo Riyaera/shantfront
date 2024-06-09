@@ -4,10 +4,25 @@ import './Header.css';
 
 const Header = () => {
   const [activeLink, setActiveLink] = useState('');
+  const [open, setopen] = useState(true);
+ 
+
   
   const handleOnClick = (link) => {
     setActiveLink(link);
   };
+
+  const handleButtonClick = () => {
+    // let login_op= document.getElementById("login_op");
+    // setopen(true);
+    // login_op.style.display="block";
+    if(open === true){
+      setopen(false)
+    }
+    else{
+      setopen(true)
+    }
+  }
 
 
 
@@ -35,7 +50,7 @@ const Header = () => {
                   <li>
                     <a href="/" >
                       <i className="fa fa-envelope" aria-hidden="true" />
-                      info@shantiautomation.com
+                      info@sysnixautomation.com
                     </a>
                   </li>
                   <li>
@@ -44,6 +59,17 @@ const Header = () => {
                       Rudrapur, UK
                     </a>
                   </li>
+                  {/* login form */}
+                  <li>
+                  <button type="button" className='login_button' onClick={handleButtonClick} id='login_button'>LOGIN</button>
+                  {!open ? (
+                           <div className="login_op" id='login_op'>
+                           <Link className='login_selection' to="/user">user</Link>
+                           <Link className='login_selection' to="/admin" >admin</Link>
+                        </div>
+                  ): null}
+                 
+                  </li>
                 </ul>
               </div>
             </div>
@@ -51,13 +77,13 @@ const Header = () => {
         </div>
         {/* End Top Bar */}
         {/* Menu Bar Navigation */}
-        <div className="menubar">
+        <div className="menubar" style={{paddingBottom: "10px"}}>
           <div className="container">
             <div className="navbar">
               {/* Navbar Header */}
               <div className="navbar-header">
-                <Link className="navbar-brand clearfix" to="/" style={{ marginTop: '5px' }}>
-                  <img alt="logo" src="assets/img/logo.jpeg" />
+                <Link className="navbar-brand clearfix" to="/" style={{ marginTop: '0px' }}>
+                  <img alt="logo" src="assets/img/logoo.jpg" />
                 </Link>
               </div>
               {/* End Navbar Header */}
@@ -69,14 +95,14 @@ const Header = () => {
                       <i className="fa fa-search" aria-hidden="true" />
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <button type="button" id="navbar-toggle" className="navbar-toggle"   data-toggle="collapse">
                       <span className="icon-bar" />
                       <span className="icon-bar" />
                       <span className="icon-bar" />
                       <span className="icon-bar" />
                     </button>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
               
@@ -89,7 +115,7 @@ const Header = () => {
                       to="/"
                    
                       onClick={() => handleOnClick('home')}
-                      style={{ color: activeLink === 'home' ? '#2ff924' : 'black' }}
+                      style={{ color: activeLink === 'home' ? '#ef1923' : 'black' }}
                     >
                       Home
                     </Link>
@@ -99,7 +125,7 @@ const Header = () => {
                       to="/Service"
                    
                       onClick={() => handleOnClick('services')}
-                      style={{ color: activeLink === 'services' ? '#2ff924' : 'black' }}
+                      style={{ color: activeLink === 'services' ? '#ef1923' : 'black' }}
                     >
                       Our Services
                     </Link>
@@ -109,7 +135,7 @@ const Header = () => {
                       to="/products"
                    
                       onClick={() => handleOnClick('products')}
-                      style={{ color: activeLink === 'products' ? '#2ff924' : 'black' }}
+                      style={{ color: activeLink === 'products' ? '#ef1923' : 'black' }}
                     >
                       Products
                     </Link>
@@ -119,7 +145,7 @@ const Header = () => {
                       to="/about"
                    
                       onClick={() => handleOnClick('about')}
-                      style={{ color: activeLink === 'about' ? '#2ff924' : 'black' }}
+                      style={{ color: activeLink === 'about' ? '#ef1923' : 'black' }}
                     >
                       About Us
                     </Link>
@@ -129,7 +155,7 @@ const Header = () => {
                       to="/career"
                    
                       onClick={() => handleOnClick('career')}
-                      style={{ color: activeLink === 'career' ? '#2ff924' : 'black' }}
+                      style={{ color: activeLink === 'career' ? '#ef1923' : 'black' }}
                     >
                       Career
                     </Link>
@@ -139,7 +165,7 @@ const Header = () => {
                       to="/contact"
                    
                       onClick={() => handleOnClick('contact')}
-                      style={{ color: activeLink === 'contact' ? '#2ff924' : 'black' }}
+                      style={{ color: activeLink === 'contact' ? '#ef1923' : 'black' }}
                     >
                       Contact
                     </Link>
@@ -149,7 +175,7 @@ const Header = () => {
                       to="/supports"
                    
                       onClick={() => handleOnClick('supports')}
-                      style={{ color: activeLink === 'supports' ? '#2ff924' : 'black' }}
+                      style={{ color: activeLink === 'supports' ? '#ef1923' : 'black' }}
                     >
                       Support &amp; Downloads
                     </Link>
@@ -166,6 +192,7 @@ const Header = () => {
 <h1>h</h1>
           </div>
           </div> */}
+         
       </header>
       {/* End Header */}
       

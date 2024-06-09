@@ -107,9 +107,9 @@ function Contact() {
                   <ul>
                     <li>
                       <h2>
-                        <i className="fa fa-phone"></i>Shanti Automation:
+                        <i className="fa fa-phone"></i>Sysnix Automation:
                         <span className="value">
-                          +91-7466076666 , +91-7500055554
+                          +91-7466076666
                         </span>
                       </h2>
                     </li>
@@ -125,7 +125,7 @@ function Contact() {
                       <h2>
                         <i className="fa fa-envelope"></i>Project Support:
                         <span className="value">
-                          info@shantiautomation.com
+                          info@Sysnixautomation.com
                         </span>
                       </h2>
                     </li>
