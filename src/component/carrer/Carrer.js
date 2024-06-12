@@ -51,7 +51,7 @@ function Carrer() {
         <p className="card-text">
          A dynamic community dedicated to expanding human Possibility.
         </p>
-        <a href="#" className="btn">Go somewhere</a>
+        <a href="/" className="btn">Go somewhere</a>
       </div>
     </div>
 
