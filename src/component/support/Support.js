@@ -1,7 +1,10 @@
 import React from "react";
 import "./Support.css"
+// import { useNavigate } from "react-router-dom";
 
 function Support() {
+  // const navigate= useNavigate()
+  
   return <div>
     <div className="wrapper clearfix">
     <section className="under-development-section">

@@ -4437,7 +4437,7 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   height: 383px;
 }
 .site-container .wrapper section.dark-section {
-  background-color: #bcbcbc ;
+  background-color: #404040 ;
 }
 .site-container .wrapper section.light-section {
   background-color: #f9f9f9;
@@ -4659,7 +4659,7 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 30px;
-  background-color: #bcbcbc;
+  background-color: #404040;
   position: relative;
   -moz-transition: all 450ms !important;
   -o-transition: all 450ms !important;
@@ -4750,8 +4750,8 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   color: #ef1923;
 }
 .site-container .dev-newsletter > form .btn {
-  background-color: #bcbcbc;
-  border-color: #bcbcbc;
+  background-color: #404040;
+  border-color: #404040;
   color: #fff;
   height: 40px;
   -moz-border-radius: 0;
@@ -4776,7 +4776,7 @@ body .overlay #mk-fullscreen-search-input:-ms-input-placeholder {
   border-color: #282828;
 }
 .site-container .dev-newsletter > form .btn:hover {
-  background-color: #ef1923;
+  background-color: black;
   color: #FFF;
 }
 

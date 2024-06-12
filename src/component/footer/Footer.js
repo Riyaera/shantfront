@@ -64,8 +64,8 @@ function Footer() {
                 <h2>Send us a message</h2>
                 {successMessage ? (
                   <div>
-                    <h1>Thank You!</h1>
-                    <p>You are very important to us, all information received will always remain confidential. We will contact you as soon as we review your message.</p>
+                    <h1 style={{color: "white"}}>Thank You!</h1>
+                    <p style={{color:"white"}}>You are very important to us, all information received will always remain confidential. We will contact you as soon as we review your message.</p>
                   </div>
                 ) : (
                   <form className="contact-form" id="contact-form" onSubmit={handleSubmit(onSubmit)}>

@@ -3,11 +3,11 @@
     margin: 0px;
     box-sizing: border-box;
 }
-.he2{
+.header2{
     display: none;
 }
 @media screen and (max-width: 768px){
-    .he2{
-        display: block;
-    }
+   .header2{
+    display: block;
+   }
 }

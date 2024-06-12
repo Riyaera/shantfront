@@ -13,9 +13,6 @@ const Header = () => {
   };
 
   const handleButtonClick = () => {
-    // let login_op= document.getElementById("login_op");
-    // setopen(true);
-    // login_op.style.display="block";
     if(open === true){
       setopen(false)
     }
@@ -87,26 +84,9 @@ const Header = () => {
                 </Link>
               </div>
               {/* End Navbar Header */}
-              {/* Search & Hamburger Menu */}
-              <div className="collapsed-icons">
-                <ul>
-                  <li>
-                    <a className="search" href="/"  id="trigger-overlay">
-                      <i className="fa fa-search" aria-hidden="true" />
-                    </a>
-                  </li>
-                  {/* <li>
-                    <button type="button" id="navbar-toggle" className="navbar-toggle"   data-toggle="collapse">
-                      <span className="icon-bar" />
-                      <span className="icon-bar" />
-                      <span className="icon-bar" />
-                      <span className="icon-bar" />
-                    </button>
-                  </li> */}
-                </ul>
-              </div>
-              
-              {/* End Search & Hamburger Menu */}
+             
+         
+            
               {/* Navigation */}
               <div className="navbar-collapse collapse navbar-right">
                 <ul className="navbar-nav nav">
@@ -172,10 +152,10 @@ const Header = () => {
                   </li>
                   <li>
                     <Link
-                      to="/supports"
+                      to="/verify"
                    
-                      onClick={() => handleOnClick('supports')}
-                      style={{ color: activeLink === 'supports' ? '#ef1923' : 'black' }}
+                      onClick={() => handleOnClick('verify')}
+                      style={{ color: activeLink === 'verify' ? '#ef1923' : 'black' }}
                     >
                       Support &amp; Downloads
                     </Link>
@@ -186,12 +166,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        {/* End Menu Bar Navigation */}
-        {/* <div id="sidr-main" class="sidr right"  style={{transition: "right 0.2s ease 0s",right: "0px"}}>
-          <div class="sidr-inner">
-<h1>h</h1>
-          </div>
-          </div> */}
+      
          
       </header>
       {/* End Header */}

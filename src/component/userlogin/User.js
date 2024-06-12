@@ -26,7 +26,7 @@ function User() {
       axios.post("http://localhost:3213/user", values)
         .then(res => {
           if (res.data === "success") {
-            navigate("/products");
+            navigate("/");
             console.log(res)
           } else {
             alert("No record existed");

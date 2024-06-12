@@ -52,8 +52,8 @@ function Addata() {
   return (
     <div>
       <div className="wrapper clearfix">
-        <div className="padding paddv-100">
-          <div className="container">
+  
+          <div className="add-container">
             <div className="add">
               <h1>Add products</h1>
               <label htmlFor="title" className="addlabel">Title</label>
@@ -66,7 +66,7 @@ function Addata() {
               {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
             </div>
           </div>
-        </div>
+        
       </div>
     </div>
   );

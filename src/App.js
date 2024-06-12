@@ -14,6 +14,9 @@ import Admin from './component/admin_login/Admin';
 import User from './component/userlogin/User';
 import Sigup from './component/signup/Sigup';
 import Addata from './component/serviceadmin/Addata';
+import Carrer from './component/carrer/Carrer';
+import Verify from './component/support/verify/Verify';
+import Header2 from './component/header/Header2';
 
 
 
@@ -23,7 +26,13 @@ function App() {
 
     <div className="site-container">
     <BrowserRouter>
+    <div className="header1">
     <Header/>
+    </div>
+    <div className="header2">
+      <Header2/>
+    </div>
+   
    
     <Routes>
     <Route path='/' element={<Home/>}/>
@@ -31,13 +40,16 @@ function App() {
     <Route path='/products' element={<Product/>} />
     <Route path='/contact' element={<Contact/>} />
     <Route path='/about' element={<About/>} />
-    <Route path='/career' element={<Home/>} />
-    <Route path='/supports' element={<Support/>} />
+    <Route path='/career' element={<Carrer/>} />
+    <Route path='/verify' element={<Verify/>} />
     <Route  path='/admin' element={<Admin/>} />
     <Route  path='/user' element={<User/>} />
     <Route  path='/sign' element={<Sigup/>} />
     <Route  path='/login' element={<User/>} />
     <Route  path='/addata' element={<Addata/>} />
+    <Route  path='/support' element={<Support/>} />
+
+    
 
 
 
